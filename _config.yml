@@ -4,3 +4,5 @@ description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+domain: ese-519-team-lobster.github.io
+url: https://ese-519-team-lobster.github.io
