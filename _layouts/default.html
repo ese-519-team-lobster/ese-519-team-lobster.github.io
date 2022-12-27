@@ -18,12 +18,9 @@
         <h1 style="margin-bottom:5px;">{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
         <br>
-        {% endif %}
-
-        <br>
+        <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Logo" />
+        <br><br>
         
         <h3 style="margin-bottom:5px;">Our Team</h3>
         <table>
