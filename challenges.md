@@ -10,4 +10,8 @@ layout: default
 
 # Challenges
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Some major challenges we faced:
+
+1. Communicating with the PWM Driver over I2C in C
+1. Smoothing of the robot arm's movements
+1. Camera's limited FOV
