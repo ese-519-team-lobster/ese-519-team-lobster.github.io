@@ -34,3 +34,4 @@ For the future, we would try to correct the downsides of our current system. Fir
 We would've liked to have evolved our logic to have the system accomplish a more complicated goal, like playing a legal game of checkers.
 
 ![Checkers](https://lh4.googleusercontent.com/Fszezl_1BwZ1SpxzaE6MF5N023FGDov6_vpj_1J6PFrCx1DCPlXnICWiYD5Git_8QRM=w2400)
+*A robotic arm playing a game of checkers.*
