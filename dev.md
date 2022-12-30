@@ -14,11 +14,11 @@ layout: default
 * Adafruit PCA9685 16-Channel 12-bit I2C PWM/Servo Driver
 * Arducam Pico4ML microcontroller development board
 * Adafruit Analog 2-axis Thumb Joystick with Select Button + Breakout Board/Nintendo Wii Nunchuck
+* 6x 940nm infrared LEDs
+* 5VDC 10A power supply
 * 5 DoF Robotic Arm
 	* 6x PWM-controlled hobby servos (2x HiTek HS-755MG, 3x HiTek HS-422, 1x HiTek HS-85BB)
 	* Lynxmotion aluminum servo brackets
-* 6x 940nm infrared LEDs
-* 5VDC 10A power supply
 
 ### Assembly
 
@@ -35,11 +35,11 @@ Software for the project was developed across both Windows and Mac using Visual 
 
 [Here's the link to our code repository](https://github.com/ese-519-team-lobster/ese-519-team-lobster.github.io).
 
-The following libraries/repositories were used/adapted in our project:
-* https://github.com/cgxeiji/CGx-InverseK (Inverse Kinematics)
-* https://gist.github.com/lsalmon/fad583622c4bdcb93f0f5722792a143f (Wii Nunchuck I2C interface)
-* https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library (PCA9685 I2C interface)
-* https://github.com/ArduCAM/RPI-Pico-Cam (Interface with Pico4ML camera and display)
+The following github libraries/repositories were used/adapted in our project:
+* [Inverse Kinematics](https://github.com/cgxeiji/CGx-InverseK)
+* [Wii Nunchuck I2C interface](https://gist.github.com/lsalmon/fad583622c4bdcb93f0f5722792a143f)
+* [PCA9685 I2C interface](https://github.com/adafruit/Adafruit-PWM-Servo-Driver-Library)
+* [Interface with Pico4ML camera and display](https://github.com/ArduCAM/RPI-Pico-Cam)
 
 ### Timeline
 
@@ -65,8 +65,8 @@ A simplified sort of convolution was implemented whereby the grayscale color val
 
 To ensure that the intended target was the brightest point in the image, several infrared LEDs were mounted around the image sensor to illuminate the scene. A section of retroreflective tape was attached to the target.
 
-![Assembled Arm](/assets/img/20221230_005143_HDR.jpg)
-    *Assembled arm, including 3d-printed bracket holding Pico4ML and IR LEDs*
+![Assembled Arm](https://lh6.googleusercontent.com/cs08JMSr-jalS5XXB87US1RTMiEwfT_VB4TrIZDwRxRi3kwHE4ZHFD4cpMNFnloS1VE=w2400)
+*Assembled arm, including 3d-printed bracket holding Pico4ML and IR LEDs*
 
 ![Point Track](https://lh4.googleusercontent.com/sZKe2Ak1Ej1h7iPsuSJMX8TGTbK5VRPDznB6qQIcrTnyrya2egzhLXjisf4foDYfkRY=w2400)
     *Point tracking camera demo.*
