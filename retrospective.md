@@ -23,9 +23,9 @@ Reflecting on our project design, there were a number of benefits and drawbacks 
 
 ### Disadvantages
 
-* The camera's small field of view makes it impossible to have the robot arm move toward any object located at any position within its reach. For the same reason, it's very easy for the system to lose track of a moving object unless it is almost directly underneath the arm.
+* The camera's small field of view makes it impossible to have the robot arm move toward an object located at every position within its reach. For the same reason, it's very easy for the system to lose track of a moving object unless it is almost directly underneath the arm.
 * Servo motors are hobby servos, which are more prone to failure and cause a lot of jittering in the movement of the arm.
-* Analog joystick has two axes and a button, which is not enough to control the three axes of the robot arm as well as the gripper.
+* Analog joystick/Wii Nunchuck have two axes and 1-2 buttons, which is not enough to easily control the three axes of the robot arm as well as the gripper.
 * The robot arm only has five degrees of freedom, preventing some IK problems from being solvable and thus limiting the arm's workspace.
 
 
